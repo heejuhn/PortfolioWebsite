@@ -587,7 +587,7 @@ const GlassExperience = () => {
         <Reveal delay={300}>
           <GlassCard className="!p-8 md:!p-10 w-full">
             <h3 className="font-futura text-2xl font-bold text-white mb-8 flex items-center gap-3">
-              <Award size={24} className="text-purple-400" /> Certifications
+              <Award size={24} className="text-purple-400" /> certifications
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 items-start">
               {CERTIFICATIONS.map((cert, index) => {
