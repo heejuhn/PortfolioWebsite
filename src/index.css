@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'MyCustomFutura';
+  src: url('/fonts/Futura-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
