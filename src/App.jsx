@@ -41,8 +41,8 @@ const PERSONAL_INFO = {
   email: "connor.h.yang@gmail.com",
   phone: "(949) 426-2512",
   location: "Riverside, CA",
-  github: "https://github.com",
-  linkedin: "https://linkedin.com"
+  github: "https://github.com/heejuhn",
+  linkedin: "https://www.linkedin.com/in/connorryang/"
 };
 
 const SKILLS = [
