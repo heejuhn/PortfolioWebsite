@@ -36,11 +36,11 @@ const LinkedinIcon = ({ size = 24, className = "" }) => (
 const PERSONAL_INFO = {
   name: "Connor Yang",
   role: "Data Analytics & Tech Assurance",
-  tagline: "leveraging data intelligence and IT governance to drive strategic decisions",
-  about: "I'm a senior at the University of California, Riverside, pursuing a B.S. in Computer Science with Business Applications. I specialize at the intersection of data analytics, business intelligence, and IT risk management. From architecting secure relational databases to engineering predictive data pipelines, I focus on ensuring data integrity and leveraging actionable insights to optimize operations.",
+  tagline: "leveraging data intelligence and technology controls to fortify enterprise IT governance",
+  about: "I'm a senior at the University of California, Riverside, pursuing a B.S. in Computer Science with Business Applications. I specialize at the intersection of information systems audit, technology controls, and digital assurance. From architecting secure relational databases with strict access controls to testing IT workflows, I focus on mitigating risk and ensuring data integrity to safeguard enterprise systems.",
   email: "connor.h.yang@gmail.com",
   phone: "(949) 426-2512",
-  location: "Riverside, CA",
+  location: "Lake Forest, CA",
   github: "https://github.com/heejuhn",
   linkedin: "https://www.linkedin.com/in/connorryang/"
 };
@@ -55,7 +55,6 @@ const EDUCATION = [
   {
     school: "University of California, Riverside",
     degree: "B.S., Computer Science with Business Applications",
-    minor: "Minor in Management: Organizational Behavior/HR",
     period: "Expected: Fall 2026",
     coursework: ["Data Analysis Methods", "Database Management Systems", "Marketing and Distribution", "Organizational Behavioral Management", "Designing and Leading Teams", "Introduction to Information Retrieval"],
     logo: "/logos/ucr.png"
@@ -64,12 +63,12 @@ const EDUCATION = [
 
 const EXPERIENCE = [
   {
-    role: "Junior Account Manager",
-    company: "Aflac Incorporated",
-    period: "Aug. 2024 – May 2025",
-    location: "Remote",
-    description: "Analyzed the end-to-end lifecycle of voluntary benefit accounts to understand the operational impact of supplemental insurance on corporate financial wellness.",
-    logo: "/logos/aflac.png"
+    role: "Technology Controls Program Intern",
+    company: "U.S. Securities and Exchange Commission (SEC)",
+    period: "Sept. 2026 – Present",
+    location: "Washington, D.C.",
+    description: "Evaluating information technology controls and digital security frameworks within the Division of Examinations Technology Controls Program (TCP) to support regulatory oversight and risk mitigation.",
+    logo: "/logos/sec.png"
   },
   {
     role: "President & Founder",
@@ -78,6 +77,14 @@ const EXPERIENCE = [
     location: "Remote / UCR",
     description: "Orchestrated the launch of the first mobile gaming organization at UCR, managing end-to-end operations and a core leadership team.",
     logo: "/logos/betasigma.jpg"
+  },
+  {
+    role: "Junior Account Manager",
+    company: "Aflac Incorporated",
+    period: "Aug. 2024 – May 2025",
+    location: "Remote",
+    description: "Analyzed the end-to-end lifecycle of voluntary benefit accounts to understand the operational impact of supplemental insurance on corporate financial wellness.",
+    logo: "/logos/aflac.png"
   }
 ];
 
@@ -397,8 +404,7 @@ const BentoAbout = () => {
             <GlassCard className="h-full flex flex-col justify-center">
               <Code2 className="text-indigo-400 mb-8" size={32} />
               <p className="text-xl md:text-2xl text-zinc-200 leading-relaxed font-light mb-8">
-                I'm a senior at UC Riverside specializing at the intersection of <span className="text-white font-medium">data analytics, business intelligence,</span> and <span className="text-white font-medium">IT risk management.</span>
-              </p>
+                  I'm a senior at UC Riverside specializing at the intersection of <span className="text-white font-medium">information systems audit, technology controls,</span> and <span className="text-white font-medium">digital assurance.</span>              </p>
               <p className="text-zinc-400 text-sm leading-loose">
                 {PERSONAL_INFO.about}
               </p>
